@@ -7,7 +7,7 @@ const zhCN = {
             "home": "首页",
             "service": "服务",
             "attribute": "特性",
-            "pricing": "价格",
+            "pricing": "价格"
         }
     },
     "about": "关于",
@@ -23,19 +23,19 @@ const zhCN = {
             "username": {
                 "required": "请输入用户名。",
                 "minlength": "用户名至少为 4 个字符。",
-                "maxlength": "用户名不能超过 20 个字符。",
+                "maxlength": "用户名不能超过 20 个字符。"
             },
             "password": {
                 "required": "请输入密码。",
                 "minlength": "密码至少为 8 个字符。",
-                "maxlength": "密码不能超过 20 个字符。",
+                "maxlength": "密码不能超过 20 个字符。"
             },
             "code": {
                 "required": "请输入验证码。",
                 "minlength": "验证码至少为 4 个字符。",
-                "maxlength": "验证码不能超过 6 个字符。",
-            },
-        },
+                "maxlength": "验证码不能超过 6 个字符。"
+            }
+        }
     },
     "register": "注册",
     "logout": "登出",
@@ -44,10 +44,10 @@ const zhCN = {
         "name": "SSPanel Next",
         "description": "基于 Node.js 和 React 的现代、强大、优雅的 SSR 面板系统。",
         "github": "Github",
-        "docs": "文档",
+        "docs": "文档"
     },
     "userCenter":{
-        "title": "用户中心",
+        "title": "用户中心"
     }
 }
 
