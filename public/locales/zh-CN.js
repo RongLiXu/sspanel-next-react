@@ -1,6 +1,15 @@
 const zhCN = {
-    "title": "SSPanel Next",
-    "home": "首页",
+    "home": {
+        "title": "首页",
+        "description": "基于 Node.js 和 React 的现代、强大、优雅的 SSR 面板系统。",
+        "name": "SSPanel Next",
+        "nav": {
+            "home": "首页",
+            "service": "服务",
+            "attribute": "特性",
+            "pricing": "价格",
+        }
+    },
     "about": "关于",
     "login": {
         "title": "登录",
@@ -36,6 +45,9 @@ const zhCN = {
         "description": "基于 Node.js 和 React 的现代、强大、优雅的 SSR 面板系统。",
         "github": "Github",
         "docs": "文档",
+    },
+    "userCenter":{
+        "title": "用户中心",
     }
 }
 

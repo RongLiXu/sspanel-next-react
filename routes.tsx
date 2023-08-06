@@ -1,4 +1,5 @@
 import { lazy } from 'react';
+
 import Auth from '@/components/auth/index';
 
 let Login = lazy(() => import(/* webpackChunkName: "login" */ './components/login'));
@@ -17,6 +18,11 @@ let routes = [
         path: '/login',
         element: <Login />,
         layout: '',
+    },
+    {
+        path: '/logout',
+        layout: '',
+        element: <div>logout</div>,
     },
 ];
 

@@ -1,6 +1,15 @@
 const jp = {
-    "title": "SSPanel Next",
-    "home": "ホーム",
+    "home": {
+        "title": "ホームページ",
+        "description": "Node.jsとReactをベースとしたモダンで強力でエレガントなSSRパネルシステム。",
+        "name": "SSPanel Next",
+        "nav": {
+            "home": "ホーム",
+            "service": "サービス",
+            "attribute": "特性",
+            "pricing": "価格",
+        },
+    },
     "about": "約",
     "register": "登録",
     "logout": "ログアウト",
@@ -37,6 +46,9 @@ const jp = {
         "github": "Github",
         "docs": "ドキュメント",
     },
+    "userCenter": {
+        "title": "ユーザーセンター",
+    }
 }
 
 export default jp;

@@ -1,6 +1,15 @@
 const zhTW = {
-    "title": "SSPanel Next",
-    "home": "首頁",
+    "home": {
+        "title": "首頁",
+        "description": "基於 Node.js 和 React 的現代、強大、優雅的 SSR 面板系統。",
+        "name": "SSPanel Next",
+        "nav": {
+            "home": "首頁",
+            "service": "服務",
+            "attribute": "特性",
+            "pricing": "價格",
+        },
+    },
     "about": "關於",
     "register": "註冊",
     "logout": "登出",
@@ -36,6 +45,9 @@ const zhTW = {
         "description": "基於 Node.js 和 React 的現代、強大、優雅的 SSR 面板系統。",
         "github": "Github",
         "docs": "文檔",
+    },
+    "userCenter":{
+        "title": "用戶中心",
     },
 }
 

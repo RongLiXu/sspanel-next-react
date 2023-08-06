@@ -1,5 +1,15 @@
 const enUS = {
-    "home": "Home",
+    "home": {
+        "title": "Home",
+        "description": "A modern, powerful, elegant SSR panel system based on Node.js and React.",
+        "name": "HutaoCloud",
+        "nav": {
+            "home": "Home",
+            "service": "Service",
+            "attribute": "Attribute",
+            "pricing": "Price",
+        }
+    },
     "about": "About",
     "login": {
         "title": "Sign In",
@@ -35,6 +45,9 @@ const enUS = {
         "description": "A modern, powerful, elegant SSR panel system based on Node.js and React.",
         "github": "Github",
         "docs": "Docs",
+    },
+    "userCenter":{
+        "title": "User Center",
     }
 
 }
